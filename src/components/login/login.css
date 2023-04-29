@@ -25,7 +25,7 @@ h2{
 
 .login_box{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 13rem;
 }
 
 .input_fields{
@@ -41,8 +41,14 @@ h2{
     background-color: var(--color-primary);
     font-weight: 600;
     border-color: none;
+    cursor: pointer;
 
 }
+#submit:hover{
+    width: 53%;
+    font-size: large;
+}
+
 
 #to_signup{
     font-size: medium;

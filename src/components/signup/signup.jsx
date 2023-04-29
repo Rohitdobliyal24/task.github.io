@@ -4,7 +4,7 @@ const signup = () => {
   return (
     <div className="signup_page">
       <div className="img">
-        
+        hey
         {/* <img className="image" src={signupimage} alt="signup_img" /> */}
       </div>
       <div className="content">

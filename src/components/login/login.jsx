@@ -4,7 +4,7 @@ const signup = () => {
   return (
     <div className="login_page">
       <div className="img">
-        
+        hey
         {/* <img className="image" src={signupimage} alt="signup_img" /> */}
       </div>
       <div className="content">
@@ -18,7 +18,7 @@ const signup = () => {
         
           <input type="button" className="input_fields" id="submit" value="Create Account" />
           <br />
-          <a href="#" id="to_signup">Back to SignUP</a>
+          <a href="#" id="to_signup">Create Account</a>
         </div>
         </div>
     </div>
