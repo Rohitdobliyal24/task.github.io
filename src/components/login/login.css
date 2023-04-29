@@ -1,0 +1,56 @@
+.login_page{
+    display: flex;
+}
+
+.img{
+    width: 30%;
+    height: fit-content;
+    overflow: hidden;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+.content{
+    width: 70%;
+}
+
+
+h1{
+    text-align: center;
+}
+h2{
+    font-weight: 1200;
+}
+
+.login_box{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.input_fields{
+    width: 52%;
+    border: solid 2px grey;
+    border-radius: 3px;
+    height: 47px;
+    margin-bottom: 23px;
+    font-size: medium;
+}
+
+#submit{
+    background-color: var(--color-primary);
+    font-weight: 600;
+    border-color: none;
+
+}
+
+#to_signup{
+    font-size: medium;
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#to_signup:hover{
+    color: blue;
+}
