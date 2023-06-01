@@ -3,29 +3,33 @@
 }
 
 .img{
-    width: 30%;
-    height: fit-content;
-    overflow: hidden;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    width: 50%;
+    background-image: url("../../assets/black.jpg");
+    height: auto;
+    /* height: fit-content;
+    overflow: hidden */
+    border-radius: 20px;
 }
 
 
 .content{
-    width: 70%;
+    width: 50%;
 }
 
 
 h1{
     text-align: center;
+    margin-top: 13rem;
 }
 h2{
     font-weight: 1200;
+    color: grey;
+
 }
 
 .login_box{
     text-align: center;
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
 }
 
 .input_fields{
@@ -38,10 +42,12 @@ h2{
 }
 
 #submit{
-    background-color: var(--color-primary);
+    color: white;
+    background-color: black;
     font-weight: 600;
     border-color: none;
     cursor: pointer;
+    box-shadow: 1px 1px grey;
 
 }
 #submit:hover{
@@ -53,10 +59,31 @@ h2{
 #to_signup{
     font-size: medium;
     text-decoration: underline;
-    color: black;
+    color: grey;
+
     
 }
 
 #to_signup:hover{
     color: blue;
+}
+
+#imgg{
+    max-width: max-content;
+    height: max-content;
+}
+
+
+#back{
+    color: green;
+}
+
+
+#head{
+    text-align: left;
+    color: white;
+}
+
+#head1{
+    color: grey;
 }
